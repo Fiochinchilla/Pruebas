@@ -77,6 +77,13 @@
   - [`logMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/logMiddleware.ts) → structured logging for requests and state changes.  
   - [`errorMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/errorMiddleware.ts) → catches and forwards errors.
  
+
+
+### Files
+- [`CoachValidator.ts`](https://github.com/Javo294/caso1DS/blob/main/src/validators/CoachValidator.ts)
+- [`SessionValidator.ts`](https://github.com/Javo294/caso1DS/blob/main/src/validators/SessionValidator.ts)
+
+ 
  
  
  - **CI File:** [`.github/workflows/ci.yml`](https://github.com/Javo294/caso1DS/blob/main/.github/workflows/ci.yml)  
