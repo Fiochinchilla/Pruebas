@@ -86,6 +86,30 @@
  
  
  
- - **CI File:** [`.github/workflows/ci.yml`](https://github.com/Javo294/caso1DS/blob/main/.github/workflows/ci.yml)  
+ - **CI File:** [`.github/workflows/ci.yml`](https://github.com/Javo294/caso1DS/blob/main/.github/workflows/ci.yml)
+
+
+
+
+
+---------------------------
+
+### Location
+- [`/src/dto`](https://github.com/Javo294/caso1DS/tree/main/src/dto)
+
+### Purpose
+DTOs define the structure of the data that moves between the frontend and backend. They enforce contracts, ensure type safety, and simplify data transformations.
+
+### Examples
+- [`CoachDTO.ts`](https://github.com/Javo294/caso1DS/blob/main/src/dto/CoachDTO.ts)
+- [`SessionDTO.ts`](https://github.com/Javo294/caso1DS/blob/main/src/dto/SessionDTO.ts)
+
+### Transformation Example
+
+
+
+
+
+
 
 
