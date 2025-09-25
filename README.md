@@ -141,4 +141,23 @@ Manage global styles, themes, and responsive design using Tailwind CSS.
 
 
 
+---------------------------
+
+
+### Files and Examples
+
+- [`constants.ts`](https://github.com/Javo294/caso1DS/blob/main/src/utils/constants.ts)  
+  Contains global constants for the application.
+Aquí va el código guía para el programador, falta agregarlo
+
+- [`formatTime.ts`](https://github.com/Javo294/caso1DS/blob/main/src/utils/formatTime.ts)  
+  Utility functions for formatting date and time.
+Aquí va el código guía para el programador, falta agregarlo
+
+- [`logger.ts`](https://github.com/Javo294/caso1DS/blob/main/src/utils/logger.ts)  
+  Singleton logger for application-wide logging using Sentry.
+Aquí va el código guía para el programador, falta agregarlo
+
+
+
 
