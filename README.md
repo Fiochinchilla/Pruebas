@@ -75,5 +75,10 @@
 - **Examples:**  
   - [`authMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/authMiddleware.ts) → validates authentication & permissions.  
   - [`logMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/logMiddleware.ts) → structured logging for requests and state changes.  
-  - [`errorMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/errorMiddleware.ts) → catches and forwards errors.  
+  - [`errorMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/errorMiddleware.ts) → catches and forwards errors.
+ 
+ 
+ 
+ - **CI File:** [`.github/workflows/ci.yml`](https://github.com/Javo294/caso1DS/blob/main/.github/workflows/ci.yml)  
+
 
