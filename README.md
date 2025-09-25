@@ -43,3 +43,8 @@
   - [`/src/listeners/websocket.ts`](https://github.com/Javo294/caso1DS/blob/main/src/listeners/websocket.ts)  
 
 
+  - [`.eslintrc.js`](https://github.com/Javo294/caso1DS/blob/main/.eslintrc.js)  
+  - [`.prettierrc`](https://github.com/Javo294/caso1DS/blob/main/.prettierrc)  
+
+
+
