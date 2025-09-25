@@ -127,6 +127,17 @@ Manage global state in a predictable way using Redux Toolkit slices and hooks. E
 
 
 
+----------------------------------------------
+### Location
+- [`/src/styles`](https://github.com/Javo294/caso1DS/tree/main/src/styles)
+
+### Purpose
+Manage global styles, themes, and responsive design using Tailwind CSS.
+
+### Files
+- [`index.css`](https://github.com/Javo294/caso1DS/blob/main/src/styles/index.css) → Global CSS import, Tailwind base, components, and utilities.
+- [`tailwind.config.ts`](https://github.com/Javo294/caso1DS/blob/main/src/styles/tailwind.config.ts) → Tailwind configuration, custom colors, breakpoints, and plugins.
+- [`themes.ts`](https://github.com/Javo294/caso1DS/blob/main/src/styles/themes.ts) → Theme definitions, e.g., dark/light mode, shared colors, font sizes.
 
 
 
