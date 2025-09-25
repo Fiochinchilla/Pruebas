@@ -32,3 +32,9 @@
 ---
 
 
+### Ubicación
+- Hooks: [`/src/hooks/useNotifications.ts`](https://github.com/Javo294/caso1DS/blob/main/src/hooks/useNotifications.ts)
+- Listeners: [`/src/listeners`](https://github.com/Javo294/caso1DS/tree/main/src/listeners)
+- Servicios: [`/src/services/socket.ts`](https://github.com/Javo294/caso1DS/blob/main/src/services/socket.ts)
+
+
