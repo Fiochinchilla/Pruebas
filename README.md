@@ -48,3 +48,13 @@
 
 
 
+
+
+
+
+
+- **Location:** [`/src/services`](https://github.com/Javo294/caso1DS/tree/main/src/services)  
+
+- **Examples:**  
+  - [`CoachService.ts`](https://github.com/Javo294/caso1DS/blob/main/src/services/CoachService.ts)  
+  - [`SessionService.ts`](https://github.com/Javo294/caso1DS/blob/main/src/services/SessionService.ts)  
