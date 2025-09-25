@@ -109,6 +109,24 @@ DTOs define the structure of the data that moves between the frontend and backen
 
 
 
+------------------------
+
+
+## State Management / Store
+
+### Location
+- [`/src/store`](https://github.com/Javo294/caso1DS/tree/main/src/store)
+
+### Purpose
+Manage global state in a predictable way using Redux Toolkit slices and hooks. Each slice is responsible for a specific domain (Auth, Coach, Session).
+
+### Slices
+- [`useAuthStore.ts`](https://github.com/Javo294/caso1DS/blob/main/src/store/useAuthStore.ts)
+- [`useCoachStore.ts`](https://github.com/Javo294/caso1DS/blob/main/src/store/useCoachStore.ts)
+- [`useSessionStore.ts`](https://github.com/Javo294/caso1DS/blob/main/src/store/useSessionStore.ts)
+
+
+
 
 
 
