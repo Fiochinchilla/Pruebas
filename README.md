@@ -67,3 +67,13 @@
   - [`AuthException.ts`](https://github.com/Javo294/caso1DS/blob/main/src/exceptions/AuthException.ts) → handles authentication/authorization errors.  
   - [`SessionException.ts`](https://github.com/Javo294/caso1DS/blob/main/src/exceptions/BaseException.ts) *(can be extended as needed for session domain errors).*  
 
+
+
+
+- **Location:** [`/src/middleware`](https://github.com/Javo294/caso1DS/tree/main/src/middleware)  
+
+- **Examples:**  
+  - [`authMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/authMiddleware.ts) → validates authentication & permissions.  
+  - [`logMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/logMiddleware.ts) → structured logging for requests and state changes.  
+  - [`errorMiddleware.ts`](https://github.com/Javo294/caso1DS/blob/main/src/middleware/errorMiddleware.ts) → catches and forwards errors.  
+
