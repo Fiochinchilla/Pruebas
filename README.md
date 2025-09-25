@@ -8,3 +8,27 @@
 | **Servicios**          | Lógica de aplicación, acceso a datos y APIs externas.                              | *Service Layer Pattern*, *Dependency Injection*.     | ApiClient, AuthService, SessionService, etc. |
 | **Infraestructura**    | Conexiones técnicas (API REST, WebRTC, Socket.io, Auth0).                          | *Adapter Pattern* (ApiClient), *Observer / Pub-Sub* (Socket.io). | WebRTC, Socket.io, Auth0, AWS Cognito, REST API. |
 | **Cross-Cutting (Middleware + Validación + Logging)** | Funciones comunes que atraviesan capas (auth, logs, validaciones).                | *Chain of Responsibility* (middlewares), *Decorator* (validadores). | Express middlewares, Yup/Zod, Sentry. |
+
+
+### Capas y responsabilidades
+
+| Capa | Ubicación | Responsabilidad | Patrones aplicados |
+|------|----------|----------------|-----------------|
+| Presentación (UI) | [`/src/components`](https://github.com/Javo294/caso1DS/tree/main/src/components) | Renderiza vistas, interacción del usuario y navegación | Contenedor/Presentativo |
+| Contenedores | [`/src/containers`](https://github.com/Javo294/caso1DS/tree/main/src/containers) | Combina componentes UI con controladores | Patrón Contenedor |
+| Controladores | [`/src/controllers`](https://github.com/Javo294/caso1DS/tree/main/src/controllers) | Orquesta casos de uso y comunicación con servicios | Mediator, Hook-based |
+| Modelos | [`/src/models`](https://github.com/Javo294/caso1DS/tree/main/src/models) | Entidades del dominio central | DTO, Strategy (validaciones) |
+| DTOs | [`/src/dto`](https://github.com/Javo294/caso1DS/tree/main/src/dto) | Contratos de intercambio de datos con API | DTO |
+| Servicios | [`/src/services`](https://github.com/Javo294/caso1DS/tree/main/src/services) | Lógica de negocio y llamadas a APIs | Service, Dependency Injection |
+| Store | [`/src/store`](https://github.com/Javo294/caso1DS/tree/main/src/store) | Gestión de estados globales | Redux Toolkit slices |
+| API | [`/src/api`](https://github.com/Javo294/caso1DS/tree/main/src/api) | Clientes para APIs externas y Auth | Adapter, Proxy |
+| Listeners | [`/src/listeners`](https://github.com/Javo294/caso1DS/tree/main/src/listeners) | WebSockets, eventos en tiempo real | Observer / Pub-Sub |
+| Middleware | [`/src/middleware`](https://github.com/Javo294/caso1DS/tree/main/src/middleware) | Interceptores de request/responses, logging, auth | Chain of Responsibility |
+| Excepciones | [`/src/exceptions`](https://github.com/Javo294/caso1DS/tree/main/src/exceptions) | Manejo estandarizado de errores | Template Method |
+| Utils | [`/src/utils`](https://github.com/Javo294/caso1DS/tree/main/src/utils) | Funciones y helpers compartidos (logger, constantes, formateos) | Singleton (logger) |
+| Estilos | [`/src/styles`](https://github.com/Javo294/caso1DS/tree/main/src/styles) | Configuración de Tailwind, themes | - |
+| Validators | [`/src/validators`](https://github.com/Javo294/caso1DS/tree/main/src/validators) | Validación de modelos y DTOs | Decorator |
+
+---
+
+
